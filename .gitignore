@@ -1,0 +1,51 @@
+# Environment & Sensitive Data
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# JavaScript / Node.js
+node_modules/
+npm-debug.log*
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Java / Maven / Gradle
+.gradle/
+target/
+
+# PHP / Composer
+vendor/
+
+# Build & Output Directories
+dist/
+build/
+out/
+*.o
+*.exe
+*.dll
+*.so
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+
+# Logs & Databases
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
